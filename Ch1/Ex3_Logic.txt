@@ -1,0 +1,13 @@
+abcabcdabczz
+
+a a 1
+b b 2 1 ok
+c c 3 2 ok
+a a 1 3 not ok --> reset index, store string if larger than previous string
+b b 2 1 ok
+c c 3 2 ok
+d d 4 3
+a a 1 4 not ok --> reset index, compare string len and store if larger
+
+2 strings, one for largest and one running
+2 counters, one for current and one for size
